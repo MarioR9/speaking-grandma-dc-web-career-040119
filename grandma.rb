@@ -1,17 +1,14 @@
 # Write a speak_to_grandma method.
-
 def speak_to_grandma
- phrase = gets.chomp
- if phrase == "I LOVE YOU GRANDMA!"
-   return "I LOVE YOU TOO PUMPKIN!"
-  elsif phrase != phrase.upcase 
-    return "HUH?! SPEAK UP, SONNY!"
-    return "HUH?! SPEAK UP, SONNY!"
-  else phrase == phrase.upcase
-    return "NO, NOT SINCE 1938!"
-    return "NO, NOT SINCE 1938!"
- end
-end   
+  phrase = gets.chomp
+  if phrase != phrase.upcase
+      return "HUH?! SPEAK UP, SONNY!"
+  elsif phrase == "I LOVE YOU GRANDMA!"
+      return "I LOVE YOU TOO PUMPKIN!"
+  else 
+      return "NO, NOT SINCE 1938!"
+  end    
+end  
 
 
 # Whatever you say to grandma, she should respond with
@@ -25,3 +22,4 @@ end
 
 # However if you say 'I LOVE YOU GRANDMA!', she should respond with
 # 'I LOVE YOU TOO PUMPKIN!'
+filter_parameter_logging

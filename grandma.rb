@@ -2,7 +2,8 @@
 
 def speak_to_grandma
  phrase = gets.chomp
- if phrase == 
+ if phrase == "I LOVE YOU GRANDMA!"
+   return 
 end   
 
 

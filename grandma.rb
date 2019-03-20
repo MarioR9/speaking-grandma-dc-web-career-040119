@@ -4,8 +4,11 @@ def speak_to_grandma
  phrase = gets.chomp
  if phrase == "I LOVE YOU GRANDMA!"
    return "I LOVE YOU TOO PUMPKIN!"
-  elsif phrase == phrase.upcase 
-    return 
+  elsif phrase != phrase.upcase 
+    return "HUH?! SPEAK UP, SONNY!"
+    return "HUH?! SPEAK UP, SONNY!"
+  else phrase == phrase.upcase
+    return
  end
 end   
 
